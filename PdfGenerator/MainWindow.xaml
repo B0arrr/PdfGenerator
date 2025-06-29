@@ -1,0 +1,42 @@
+﻿<Window x:Class="PdfGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PdfGenerator"
+        mc:Ignorable="d"
+        Title="PdfGenerator" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Source="/img/red.png"></Image>
+        <Image Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="2" Source="/img/yellow.png"></Image>
+        <StackPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4" VerticalAlignment="Center">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="RadioRed" Grid.Column="0" HorizontalAlignment="Center"></RadioButton>
+                <RadioButton x:Name="RadioYellow" Grid.Column="1" HorizontalAlignment="Center"></RadioButton>
+            </Grid>
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Left" Click="ButtonChoose_OnClick">Choose file...</Button>
+        <TextBlock x:Name="FilePathTextBlock" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3" Height="25"></TextBlock>
+        <Button Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="4" Margin="0 15 0 15" Click="ButtonGenerate_OnClick">Generate</Button>
+    </Grid>
+</Window>

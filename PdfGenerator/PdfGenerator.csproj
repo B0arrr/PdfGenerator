@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="img\red.png" />
+      <Resource Include="img\red.png" />
+      <None Remove="img\yellow.png" />
+      <Resource Include="img\yellow.png" />
+      <None Remove="templates\templateRed.pdf" />
+      <Resource Include="templates\templateRed.pdf" />
+      <None Remove="templates\templateYellow.pdf" />
+      <Resource Include="templates\templateYellow.pdf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="PdfSharpCore" Version="1.3.67" />
+    </ItemGroup>
+
+</Project>
