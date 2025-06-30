@@ -45,7 +45,11 @@ public partial class MainWindow
 
             for (int i = 0; i < data.GetLength(0); i += groupSize)
             {
-                var chunk = data.Skip(i).Take(groupSize).ToArray();
+                var chunk = data.Skip(i).Take(groupSize).ToList();
+                while (chunk.Count < groupSize)
+                {
+                    chunk.Add(Enumerable.Repeat(string.Empty, desiredColumns.Length).ToArray());
+                }
                 result.AddRange(chunk);
                 result.AddRange(chunk);
             }
