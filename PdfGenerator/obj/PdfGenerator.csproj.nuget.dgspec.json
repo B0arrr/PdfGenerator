@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kubuś\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj": {}
+    "C:\\Users\\adria\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kubuś\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj": {
+    "C:\\Users\\adria\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubuś\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj",
         "projectName": "PdfGenerator",
-        "projectPath": "C:\\Users\\Kubuś\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj",
-        "packagesPath": "C:\\Users\\Kubuś\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubuś\\RiderProjects\\PdfGenerator\\PdfGenerator\\obj\\",
+        "projectPath": "C:\\Users\\adria\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adria\\RiderProjects\\PdfGenerator\\PdfGenerator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kubuś\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
@@ -32,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +65,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Kubuś\\.dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.117/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

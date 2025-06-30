@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YrzX49Vh5r4=",
+  "dgSpecHash": "bTzX6fEE1Eo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kubuś\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj",
+  "projectFilePath": "C:\\Users\\adria\\RiderProjects\\PdfGenerator\\PdfGenerator\\PdfGenerator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kubuś\\.nuget\\packages\\pdfsharpcore\\1.3.67\\pdfsharpcore.1.3.67.nupkg.sha512",
-    "C:\\Users\\Kubuś\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
-    "C:\\Users\\Kubuś\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta17\\sixlabors.fonts.1.0.0-beta17.nupkg.sha512",
-    "C:\\Users\\Kubuś\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512"
+    "C:\\Users\\adria\\.nuget\\packages\\pdfsharpcore\\1.3.67\\pdfsharpcore.1.3.67.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta17\\sixlabors.fonts.1.0.0-beta17.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

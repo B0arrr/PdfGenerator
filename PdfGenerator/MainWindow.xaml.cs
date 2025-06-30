@@ -40,7 +40,16 @@ public partial class MainWindow
                 .Select(line => line.Split(';'))
                 .Select(columns => columnIndexes.Select(index => columns[index]).ToArray())
                 .ToArray();
-            _data = data;
+            int groupSize = 3;
+            var result = new List<string[]>();
+
+            for (int i = 0; i < data.GetLength(0); i += groupSize)
+            {
+                var chunk = data.Skip(i).Take(groupSize).ToArray();
+                result.AddRange(chunk);
+                result.AddRange(chunk);
+            }
+            _data = result.ToArray();
         }
     }
 
