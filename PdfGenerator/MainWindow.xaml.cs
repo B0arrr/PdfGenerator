@@ -103,7 +103,8 @@ public partial class MainWindow
         {
             var page = outputDoc.AddPage(templatePage);
             using var gfx = XGraphics.FromPdfPage(page);
-            var font = new XFont("Arial", 12, XFontStyle.Bold);
+            var fontTitle = new XFont("Arial", 12, XFontStyle.Bold);
+            var fontSubtitle = new XFont("Arial", 18, XFontStyle.Bold);
 
             for (int row = 0; row < 7 && dataIndex < totalCards; row++)
             {
@@ -116,8 +117,8 @@ public partial class MainWindow
                     var textRect2 = new XRect(x + subtitleXPadding, y + subtitleYPadding, subtitleWidth,
                         subtitleHeight);
 
-                    DrawWrappedCenteredText(gfx, _data[dataIndex][0].Replace("\"", ""), font, XBrushes.Black, textRect);
-                    DrawWrappedCenteredText(gfx, _data[dataIndex][1].Replace("\"", ""), font, XBrushes.Black, textRect2);
+                    DrawWrappedCenteredText(gfx, _data[dataIndex][0].Replace("\"", ""), fontTitle, XBrushes.Black, textRect);
+                    DrawWrappedCenteredText(gfx, _data[dataIndex][1].Replace("\"", ""), fontSubtitle, XBrushes.Black, textRect2);
 
                     dataIndex++;
                 }
