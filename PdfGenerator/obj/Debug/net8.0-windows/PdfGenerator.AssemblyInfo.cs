@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PdfGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+590e80cac7c9e774311917756cd2f20383b9b354")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f98a40e8889808c0af0ff8dd012fe4b61032326c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PdfGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PdfGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
