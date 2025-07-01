@@ -98,7 +98,7 @@ public partial class MainWindow
         const int titleWidth = 160;
         const int titleHeight = 35;
         const int subtitleXPadding = 20;
-        var subtitleYPadding = RadioRed.IsChecked == true ? 73 : 75;
+        var subtitleYPadding = RadioRed.IsChecked == true ? 73 : 77;
         const int subtitleWidth = 140;
         const int subtitleHeight = 31;
 
@@ -140,7 +140,7 @@ public partial class MainWindow
         outputDoc.Save(outputPath);
     }
 
-    private void DrawWrappedCenteredText(XGraphics gfx, string text, XFont font, XBrush brush, XRect rect,
+    private static void DrawWrappedCenteredText(XGraphics gfx, string text, XFont font, XBrush brush, XRect rect,
         double lineSpacing = 1.2)
     {
         var words = text.Split(' ');
